@@ -1,0 +1,31 @@
+/// dctb-sass
+/// Sass Boilerplate to start new project with some functionalities.
+/// @author Diogo Cezar <diogo@diogocezar.com>
+
+// Buttons
+// Set the buttons project
+
+.button {
+	color: $color-blue-dark;
+    background-color: $color-mostarda;
+	font-family: $font-secondary;
+	font-size: 1.3em;
+	font-weight: 800;
+    padding: 0;
+	border: 0px solid;
+	border-radius: 60px;
+    text-transform: uppercase;
+    height: 60px;
+    min-width: 200px;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    margin: 10px 0 80px;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    @include transition(.3s);
+    &:hover{
+        background-color: $color-white;
+    }
+}
