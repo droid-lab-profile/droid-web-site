@@ -25,7 +25,7 @@
     }
   } */
 #home {
-  background-color: #F1F7EE;
+  background-image: url("../../../images/home-header-bg.jpg");
   padding-top: 65px;
   padding-bottom: 0px; }
   #home .decoration {
@@ -33,7 +33,7 @@
   #home #logo {
     padding-top: 94px;
     padding-bottom: 15px;
-    height: 270px; }
+    height: 150px; }
     @media only screen and (max-width: 992px) {
       #home #logo {
         padding-top: 0px;

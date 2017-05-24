@@ -14,7 +14,7 @@
 // Home
 
 #home{
-	background-color: $color-green-opaque;
+	background-image: url('../../../images/home-header-bg.jpg');
 	padding-top: 65px;
 	padding-bottom: 0px;
 	.decoration{
@@ -23,7 +23,7 @@
 	#logo{
 		padding-top: 94px;
 		padding-bottom: 15px;
-		height: 270px;
+		height: 150px;
 		@include responsive(s2) {
 			padding-top: 0px;
 			padding-bottom: 0px;
