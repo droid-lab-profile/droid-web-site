@@ -1,1 +1,0 @@
-UrlChange={change:function(n){Shared.Debug.log("URL Changed"),window.history.pushState(null,null,n)}};
