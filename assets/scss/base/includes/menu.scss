@@ -7,7 +7,7 @@
 
 nav{
 	position:fixed;
-	background-color: $color-green-dark;
+	//background-color: $color-green-dark;
 	width:100%;
 	height: 65px;
 	z-index: 9999;
@@ -67,8 +67,8 @@ nav{
 	.hamburguer{
 		position: fixed;
 		@include transition(.25s);
-		left:50%;
-		@include align(15px, 50%, -50%, 0);
+		left: 50px;
+		@include align(15px, 50px, -50%, 0);
 		height: 40px;
 	    background: transparent;
 	    border-radius: 0;
