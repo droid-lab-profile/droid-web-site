@@ -26,22 +26,22 @@ body{
 
 // Links
 a{
-  color: $color-gray;
+  color: $color-blue-light;
   text-decoration: none;
   &:hover{
-    color: $color-gray;
+    color: $color-blue-light;
     text-decoration: none;
   }
   &:focus{
-    color: $color-gray;
+    color: $color-blue-light;
     text-decoration: none;
   }
   &:active{
-    color: $color-gray;
+    color: $color-blue-light;
     text-decoration: none;
   }
   &:visited{
-    color: $color-gray;
+    color: $color-blue-light;
     text-decoration: none;
   }
 }
@@ -49,18 +49,18 @@ a{
 // Selection
 ::-moz-selection {
   color: $color-blue-dark;
-  background: $color-green-opaque;
+  background: $color-purple-medium;
 }
 
 ::selection {
   color: $color-blue-dark;
-  background: $color-green-opaque;
+  background: $color-purple-medium;
 }
 
 // Headings
 h1, h2, h3, h4{
   font-family: $font-primary;
-  color: $color-gray;
+  color: $color-blue-medium;
 }
 
 h1{
@@ -170,12 +170,12 @@ p{
     top: 50%;
     transform: translatey(-50%);
     position: absolute;
-    background-color: $color-mostarda;
+    background-color: $color-purple-medium;
   }
 }
 .fancybox-buttons{
   button{
-    background-color: $color-mostarda;
+    background-color: $color-purple-medium;
   }
 }
 .fancybox-button--left{
@@ -199,7 +199,7 @@ p{
 .fancybox-button--right:hover,
 .fancybox-button--close:hover
 {
-  background-color: $color-gray;
+  background-color: $color-blue-medium;
 }
 @media (max-width: 800px){
   .fancybox-button--left, .fancybox-button--right, .fancybox-buttons button:not(.fancybox-button--close) {

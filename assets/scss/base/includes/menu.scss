@@ -16,7 +16,7 @@ nav{
 		position:fixed;
 		top:0;
 		left:0;
-		background-color: $color-mostarda;
+		background-color: $color-blue-light;
 		width: 100vw;
 		height: 100vh;
     	transform: translateY(115%);
@@ -48,7 +48,7 @@ nav{
 					font-family: $font-secondary;
 					@include transition(.25s);
 					&:hover{
-						color: $color-green-light;
+						color: $color-purple-medium;
 					}
 				}
 			}
@@ -95,7 +95,7 @@ nav{
 			&:after{
 				position: absolute;
 				font-size: 0.9em;
-				color: $color-gray;
+				color: $color-blue-light;
 				font-weight: 600;
 				letter-spacing: 1px;
 				text-transform: uppercase;

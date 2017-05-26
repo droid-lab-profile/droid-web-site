@@ -49,7 +49,7 @@ footer{
 					span{
 						@include transition(.25s);
 						&:hover{
-							background-color: $color-mostarda;
+							background-color: $color-blue-light;
 						}
 						position: relative;
 						float: left;

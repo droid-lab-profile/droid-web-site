@@ -10,6 +10,9 @@
 @import '../base/includes/mixins.scss';
 @import '../base/includes/colors.scss';
 
+body {
+	font-family: $font-primary;
+}
 
 // Home
 
@@ -17,57 +20,83 @@
 	background-image: url('../../../images/home-header-bg.jpg');
 	padding: 5.5% 0% 2% 0%;
 	#logo {
-		width: 26.5%;
+		width: 27%;
 	}
 	#service {
-		width: 16.5%;
-		padding: 5% 0% 3.2% 0%;
+		width: 17%;
+		padding: 5.5% 0% 3.5% 0%;
 	}
 	h2 {
 		margin: 0%;
-		font-family: $font-secondary;
+		font-family: $font-primary;
 		color: $color-white;
 		font-size: 2em;
-		font-weight: bold;
+		font-weight: 800;
+    	letter-spacing: -1px;
 	}
 	p {
 		margin: 0%;
-		font-family: $font-secondary;
-		color: $color-white;
+		font-family: $font-primary;
+		color: $color-blue-medium;
 		font-size: 1.5em;
 		padding: 1.1% 30%;
 		line-height: 110%;
 	}
 	.button {
-		background-color: $color-white-full;
-		//color: $color-white;
+		background-color: $color-white;
+		font-family: $font-secondary;
+		font-weight: 800;
 		border: 2px solid;
 		font-size: 15px;
-		font-weight: 600;
 		height: 47px;
-	    min-width: 200px;
+	    min-width: 205px;
 	    max-width: 320px;
 	    text-transform: uppercase;
-	    margin: 27px 0px;
+	    margin: 31px 0px;
 	}
-	//padding-top: 65px;
-	//padding-bottom: 0px;
-	/* .decoration{
-		padding-top: 65px;
-	} */
-	/* #logo{
-		padding-top: 94px;
-		padding-bottom: 15px;
-		height: 150px;
-		@include responsive(s2) {
-			padding-top: 0px;
-			padding-bottom: 0px;
-			height: 100px;
-			margin-top: 50px;
-		}
-	} */
 }
+#sobre {
+	background-color: $color-white;
+	padding: 5.5% 0% 9% 0%;
 
+	#sobre-decorator {
+		padding:  0% 47.9%;
+	}
+
+	#sobre-droid {
+		padding: 23% 62.5% 0 5.5%;
+	}
+
+	.title {
+		color: $color-purple-light;
+		font-size: 3.6em;
+		font-weight: bold;
+    	letter-spacing: 1px;
+    	margin: 0;
+    	padding: 0px 0px 8px 0px;
+	}
+	.header {
+		color: $color-purple-light;
+		font-size: 2.8em;
+		font-weight: 800;
+    	letter-spacing: 0px;
+    	padding: 11% 0px 0px 23px;
+	}
+	.sub-header {
+		color: $color-blue-medium;
+		font-size: 1.3em;
+		font-weight: 600;
+		padding: 33px 10% 0px 23px;
+		line-height: 22px;
+    	//letter-spacing: -1px;
+	}
+	.caption {
+		font-family: $font-secondary;
+		padding: 20px 10% 0px 23px;
+		font-size: 11px;
+		line-height: 20px;
+	}
+}
 /* #sobre{
 	background-color: $color-green-opaque;
 	padding-top: 0px;

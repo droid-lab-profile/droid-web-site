@@ -24,51 +24,85 @@
       opacity: 0.75;
     }
   } */
+/* $color-mostarda: #B2BD7E;
+$color-blue-dark: #223843;
+$color-green-light: #749C75;
+$color-green-opaque: #F1F7EE;
+$color-white: #F1F7EE;
+$color-white-full: #FFF; */
+/* $color-green-dark: #223843;
+$color-blue: #002a56;
+$color-blue-light: #00d6e0;
+$color-gray: #939393;
+$color-white-light: #f3eee9;*/
+body {
+  font-family: "Montserrat", sans-serif; }
+
 #home {
   background-image: url("../../../images/home-header-bg.jpg");
-  padding: 5.5% 0% 2% 0%;
-  /* .decoration{
-		padding-top: 65px;
-	} */
-  /* #logo{
-		padding-top: 94px;
-		padding-bottom: 15px;
-		height: 150px;
-		@include responsive(s2) {
-			padding-top: 0px;
-			padding-bottom: 0px;
-			height: 100px;
-			margin-top: 50px;
-		}
-	} */ }
+  padding: 5.5% 0% 2% 0%; }
   #home #logo {
-    width: 26.5%; }
+    width: 27%; }
   #home #service {
-    width: 16.5%;
-    padding: 5% 0% 3.2% 0%; }
+    width: 17%;
+    padding: 5.5% 0% 3.5% 0%; }
   #home h2 {
     margin: 0%;
-    font-family: "Raleway", sans-serif;
-    color: #F1F7EE;
+    font-family: "Montserrat", sans-serif;
+    color: #EBF5EE;
     font-size: 2em;
-    font-weight: bold; }
+    font-weight: 800;
+    letter-spacing: -1px; }
   #home p {
     margin: 0%;
-    font-family: "Raleway", sans-serif;
-    color: #F1F7EE;
+    font-family: "Montserrat", sans-serif;
+    color: #3DC2D8;
     font-size: 1.5em;
     padding: 1.1% 30%;
     line-height: 110%; }
   #home .button {
-    background-color: #FFF;
+    background-color: #EBF5EE;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
     border: 2px solid;
     font-size: 15px;
-    font-weight: 600;
     height: 47px;
-    min-width: 200px;
+    min-width: 205px;
     max-width: 320px;
     text-transform: uppercase;
-    margin: 27px 0px; }
+    margin: 31px 0px; }
+
+#sobre {
+  background-color: #EBF5EE;
+  padding: 5.5% 0% 9% 0%; }
+  #sobre #sobre-decorator {
+    padding: 0% 47.9%; }
+  #sobre #sobre-droid {
+    padding: 23% 62.5% 0 5.5%; }
+  #sobre .title {
+    color: #755F89;
+    font-size: 3.6em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0px 0px 8px 0px; }
+  #sobre .header {
+    color: #755F89;
+    font-size: 2.8em;
+    font-weight: 800;
+    letter-spacing: 0px;
+    padding: 11% 0px 0px 23px; }
+  #sobre .sub-header {
+    color: #3DC2D8;
+    font-size: 1.3em;
+    font-weight: 600;
+    padding: 33px 10% 0px 23px;
+    line-height: 22px; }
+  #sobre .caption {
+    font-family: "Roboto", sans-serif;
+    padding: 20px 10% 0px 23px;
+    font-size: 11px;
+    line-height: 20px; }
 
 /* #sobre{
 	background-color: $color-green-opaque;
