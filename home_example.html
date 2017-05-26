@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	header{
+		position: relative;
+		float: left;
+		height: 100vh;
+		width: 100%;
+	}
+	header nav{
+		height: 70px;
+		width: 70px;
+		position: fixed;
+		background-color: #ccc;
+		top: 30px;
+		left: 30px;
+	}
+	header #logo{
+		position: absolute;
+		top: 30px;
+		height: 100px;
+		line-height: 100px;
+		left: 50%;
+		border: 1px solid #ddd;
+		box-sizing: border-box;
+		width: 100%;
+		text-align: center;
+		transform: translateX(-50%);
+	}
+	header #middle-vertical{
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%,-50%);
+	    text-align: center;
+		width: 100%;
+		box-sizing: border-box;
+		border: 1px solid #ddd;
+	}
+	 #button{
+		position: absolute;
+		bottom: 30px;
+		height: 50px;
+		border: 1px solid #ddd;
+		box-sizing: border-box;
+		width: 100%;
+		text-align: center;
+		transform: translateX(-50%);
+		left: 50%;
+	}
+	#button #btn{
+		height: 50px;
+		width: 180px;
+	}
+</style>
+<body>
+	<header>
+		<nav></nav>
+		<header id="logo"><h1>Logo</h1></header>
+		<div id="middle-vertical">
+			<div id="droid"><h2>Droid</h2></div>
+			<div id="title"><h3>Lorem ipsum dolor sit amet</h3></div>
+			<div id="sub-title"><h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4></div>
+			<div id="sub-sub-title"><h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5></div>
+		</div>
+		<div id="button">
+			<button id="btn">Saiba Mais</button>
+		</div>
+	</header>
+</body>
+</html>
