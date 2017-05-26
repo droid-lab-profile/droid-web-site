@@ -74,10 +74,12 @@ body {
 
 #sobre {
   background-color: #EBF5EE;
-  padding: 5.5% 0% 9% 0%; }
+  padding: 5.5% 0% 40% 0%; }
   #sobre #sobre-decorator {
     padding: 0% 47.9%; }
   #sobre #sobre-droid {
+    padding: 23% 62.5% 0 5.5%; }
+  #sobre #sobre-nossos-droid {
     padding: 23% 62.5% 0 5.5%; }
   #sobre .title {
     color: #755F89;
@@ -103,6 +105,8 @@ body {
     padding: 20px 10% 0px 23px;
     font-size: 11px;
     line-height: 20px; }
+  #sobre .right {
+    text-align: right; }
 
 /* #sobre{
 	background-color: $color-green-opaque;
