@@ -19,9 +19,31 @@ body {
 #home{
 	background-image: url('../../../images/home-header-bg.jpg');
 	padding: 5.5% 0% 2% 0%;
-	#logo {
-		width: 27%;
+	min-height: 100vh;
+
+	#middle-container {
+		//position: relative;
+		//top:50%;
+		//transform: translateX(50%);
 	}
+
+	#logo {
+		width:507px;
+		height: 87px;
+		position:absolute;
+		top: 50%;
+		transform: translateX(50%);
+	}
+	#service {
+		width: 316px;
+		height: 316px;
+		position:absolute;
+		top:50%;
+		// position: absolute;
+		// top: 50%;
+		// transform: translateX(50%);
+	}
+	/*
 	#service {
 		width: 17%;
 		padding: 5.5% 0% 3.5% 0%;
@@ -53,7 +75,7 @@ body {
 	    max-width: 320px;
 	    text-transform: uppercase;
 	    margin: 31px 0px;
-	}
+	} */
 }
 #sobre {
 	background-color: $color-white;

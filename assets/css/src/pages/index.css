@@ -40,37 +40,52 @@ body {
 
 #home {
   background-image: url("../../../images/home-header-bg.jpg");
-  padding: 5.5% 0% 2% 0%; }
+  padding: 5.5% 0% 2% 0%;
+  min-height: 100vh;
+  /*
+	#service {
+		width: 17%;
+		padding: 5.5% 0% 3.5% 0%;
+	}
+	h2 {
+		margin: 0%;
+		font-family: $font-primary;
+		color: $color-white;
+		font-size: 2em;
+		font-weight: 800;
+    	letter-spacing: -1px;
+	}
+	p {
+		margin: 0%;
+		font-family: $font-primary;
+		color: $color-blue-medium;
+		font-size: 1.5em;
+		padding: 1.1% 30%;
+		line-height: 110%;
+	}
+	.button {
+		background-color: $color-white;
+		font-family: $font-secondary;
+		font-weight: 800;
+		border: 2px solid;
+		font-size: 15px;
+		height: 47px;
+	    min-width: 205px;
+	    max-width: 320px;
+	    text-transform: uppercase;
+	    margin: 31px 0px;
+	} */ }
   #home #logo {
-    width: 27%; }
+    width: 507px;
+    height: 87px;
+    position: absolute;
+    top: 50%;
+    transform: translateX(50%); }
   #home #service {
-    width: 17%;
-    padding: 5.5% 0% 3.5% 0%; }
-  #home h2 {
-    margin: 0%;
-    font-family: "Montserrat", sans-serif;
-    color: #EBF5EE;
-    font-size: 2em;
-    font-weight: 800;
-    letter-spacing: -1px; }
-  #home p {
-    margin: 0%;
-    font-family: "Montserrat", sans-serif;
-    color: #3DC2D8;
-    font-size: 1.5em;
-    padding: 1.1% 30%;
-    line-height: 110%; }
-  #home .button {
-    background-color: #EBF5EE;
-    font-family: "Roboto", sans-serif;
-    font-weight: 800;
-    border: 2px solid;
-    font-size: 15px;
-    height: 47px;
-    min-width: 205px;
-    max-width: 320px;
-    text-transform: uppercase;
-    margin: 31px 0px; }
+    width: 316px;
+    height: 316px;
+    position: absolute;
+    top: 50%; }
 
 #sobre {
   background-color: #EBF5EE;
