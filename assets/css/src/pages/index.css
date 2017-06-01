@@ -39,53 +39,62 @@ body {
   font-family: "Montserrat", sans-serif; }
 
 #home {
+  position: relative;
   background-image: url("../../../images/home-header-bg.jpg");
   padding: 5.5% 0% 2% 0%;
   min-height: 100vh;
-  /*
-	#service {
-		width: 17%;
-		padding: 5.5% 0% 3.5% 0%;
-	}
-	h2 {
-		margin: 0%;
-		font-family: $font-primary;
-		color: $color-white;
-		font-size: 2em;
-		font-weight: 800;
-    	letter-spacing: -1px;
-	}
-	p {
-		margin: 0%;
-		font-family: $font-primary;
-		color: $color-blue-medium;
-		font-size: 1.5em;
-		padding: 1.1% 30%;
-		line-height: 110%;
-	}
-	.button {
-		background-color: $color-white;
-		font-family: $font-secondary;
-		font-weight: 800;
-		border: 2px solid;
-		font-size: 15px;
-		height: 47px;
-	    min-width: 205px;
-	    max-width: 320px;
-	    text-transform: uppercase;
-	    margin: 31px 0px;
-	} */ }
-  #home #logo {
-    width: 507px;
-    height: 87px;
+  width: 100%; }
+  #home #middle-container {
     position: absolute;
     top: 50%;
-    transform: translateX(50%); }
-  #home #service {
-    width: 316px;
-    height: 316px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    /* box-sizing: border-box;
+		border: 1px solid #ddd; */ }
+  #home #logo {
+    top: 5%;
+    width: 390px;
+    height: 60px;
+    left: 50%;
     position: absolute;
-    top: 50%; }
+    transform: translateX(-50%); }
+  #home #service {
+    width: 225px;
+    height: 225px; }
+  #home h2 {
+    margin: 50px 0 0 0;
+    font-family: "Montserrat", sans-serif;
+    color: #EBF5EE;
+    font-size: 2em;
+    font-weight: 800;
+    letter-spacing: -1px; }
+  #home p {
+    margin: 0% 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #3DC2D8;
+    font-size: 1.5em;
+    padding: 1.1% 30%;
+    line-height: 110%; }
+  #home #button {
+    position: absolute;
+    bottom: 70px;
+    height: 50px;
+    width: 100%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%); }
+  #home .button {
+    background-color: #EBF5EE;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    border: 2px solid;
+    font-size: 15px;
+    height: 47px;
+    min-width: 205px;
+    max-width: 320px;
+    text-transform: uppercase; }
 
 #sobre {
   background-color: #EBF5EE;

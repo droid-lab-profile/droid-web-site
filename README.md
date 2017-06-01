@@ -26,6 +26,7 @@ font-family: 'Roboto', sans-serif;
 ================================================================================
 
 ---
+mockup: https://xd.adobe.com/view/2be06d8f-3692-47fa-9274-455026c9cf71/
 Alguns ajustes:
 A altura do logo deve ser 87px; Sua largura 507px. (isso pode variar em outras resolução)
 O icone do droid deve ter 316x316px.
