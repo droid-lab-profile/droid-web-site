@@ -48,449 +48,111 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -38%);
     text-align: center;
-    width: 100%;
-    /* box-sizing: border-box;
-		border: 1px solid #ddd; */ }
+    width: 100%; }
   #home #logo {
-    top: 5%;
-    width: 390px;
-    height: 60px;
+    width: 498px;
+    height: 78px;
+    top: 12%;
     left: 50%;
     position: absolute;
     transform: translateX(-50%); }
   #home #service {
-    width: 225px;
-    height: 225px; }
+    width: 285px;
+    height: 285px; }
   #home h2 {
     margin: 50px 0 0 0;
     font-family: "Montserrat", sans-serif;
     color: #EBF5EE;
-    font-size: 2em;
+    font-size: 43px;
     font-weight: 800;
     letter-spacing: -1px; }
   #home p {
     margin: 0% 20px;
     font-family: "Montserrat", sans-serif;
     color: #3DC2D8;
-    font-size: 1.5em;
+    font-size: 33px;
     padding: 1.1% 30%;
     line-height: 110%; }
-  #home #button {
-    position: absolute;
-    bottom: 70px;
-    height: 50px;
+  #home .button-contato {
     width: 100%;
-    left: 50%;
     text-align: center;
-    transform: translateX(-50%); }
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    /* position: absolute;
+		bottom: 70px;
+		height: 70px;
+		width: 100%;
+		left: 50%;
+		text-align: center;
+		transform: translateX(-50%); */ }
   #home .button {
     background-color: #EBF5EE;
     font-family: "Roboto", sans-serif;
     font-weight: 800;
-    border: 2px solid;
-    font-size: 15px;
-    height: 47px;
-    min-width: 205px;
+    font-size: 25px;
+    height: 70px;
+    min-width: 333px;
     max-width: 320px;
     text-transform: uppercase; }
 
 #sobre {
   background-color: #EBF5EE;
   padding: 5.5% 0% 40% 0%; }
-  #sobre #sobre-decorator {
-    padding: 0% 47.9%; }
-  #sobre #sobre-droid {
-    padding: 23% 62.5% 0 5.5%; }
-  #sobre #sobre-nossos-droid {
-    padding: 23% 62.5% 0 5.5%; }
-  #sobre .title {
-    color: #755F89;
-    font-size: 3.6em;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin: 0;
-    padding: 0px 0px 8px 0px; }
-  #sobre .header {
-    color: #755F89;
-    font-size: 2.8em;
-    font-weight: 800;
-    letter-spacing: 0px;
-    padding: 11% 0px 0px 23px; }
-  #sobre .sub-header {
-    color: #3DC2D8;
-    font-size: 1.3em;
-    font-weight: 600;
-    padding: 33px 10% 0px 23px;
-    line-height: 22px; }
-  #sobre .caption {
-    font-family: "Roboto", sans-serif;
-    padding: 20px 10% 0px 23px;
-    font-size: 11px;
-    line-height: 20px; }
+  #sobre #header {
+    min-height: 100vh;
+    width: 100%;
+    position: relative; }
+    #sobre #header .title-page {
+      position: absolute;
+      width: 100%;
+      text-align: center; }
+      #sobre #header .title-page h1 {
+        color: #755F89;
+        font-size: 85px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin: 0; }
+    #sobre #header .decorator {
+      width: 90px; }
+    #sobre #header .title-decorator {
+      position: absolute;
+      right: 50%;
+      top: 100px;
+      transform: translateX(50%); }
+    #sobre #header .content-left {
+      position: absolute;
+      left: 20%;
+      top: 25%; }
+      #sobre #header .content-left h2 {
+        margin-top: 15px;
+        width: 50%;
+        color: #755F89;
+        font-size: 65px;
+        font-weight: 800;
+        letter-spacing: 0px; }
+      #sobre #header .content-left .body-p {
+        margin-top: 65px;
+        width: 50%;
+        color: #3DC2D8;
+        font-size: 31px;
+        font-weight: 800;
+        line-height: 34px; }
+      #sobre #header .content-left .body-c {
+        font-family: "Roboto", sans-serif;
+        margin-top: 65px;
+        width: 50%;
+        font-size: 18px;
+        line-height: 20px;
+        line-height: 34px; }
+      #sobre #header .content-left .img-right {
+        position: absolute;
+        top: 0px;
+        left: 60%;
+        width: 200px;
+        height: 200px; }
   #sobre .right {
     text-align: right; }
-
-/* #sobre{
-	background-color: $color-green-opaque;
-	padding-top: 0px;
-	padding-bottom: 45px;
-	.row-banners{
-		margin-top: 30px;
-	}
-	h1{
-		font-family: $font-secondary;
-		color: $color-green-dark;
-		font-size: 6.1em;
-		line-height: 0.1;
-		color: $color-mostarda;
-		@include responsive(s1) {
-			font-size: 5.3em;
-		}
-		@include responsive(s2) {
-			font-size: 4.3em;
-			text-align: center;
-			float:none;
-			max-width: initial;
-			margin-bottom: 40px;
-		}
-	}
-	h2{
-		font-family: $font-secondary;
-		color: $color-green-dark;
-		font-size: 3.7em;
-		font-style: italic;
-	    font-weight: 100;
-		.home-green{
-			color: $color-green-light;
-		}
-		@include responsive(s1) {
-			font-size: 3em;
-		}
-		@include responsive(s2) {
-			font-size: 2.5em;
-			text-align: center;
-			float:none;
-			max-width: initial;
-		}
-	}
-	p{
-		font-family: $font-primary;
-		font-size: 1.23em;
-		line-height: 1.65em;
-		padding: 6% 32% 0% 32%;
-		text-align: center;
-		float:none;
-		@include responsive(s1) {
-			padding: 7% 32% 0% 32%;
-			max-width: initial;
-			text-align: center;
-			float:none;
-		}
-		@include responsive(s2) {
-			padding: 7% 12% 0% 12%;
-			max-width: initial;
-			text-align: center;
-			float:none;
-		}
-		@include responsive(s3) {
-			padding: 7% 2% 0% 2%;
-			max-width: initial;
-			text-align: center;
-			float:none;
-		}
-	}
-	.banner{
-		h3{
-			color: $color-white;
-			font-family: $font-secondary;
-			font-size: 2em;
-			font-weight: bold;
-		}
-		p{
-			color: $color-green-opaque;
-			padding: 3% 10% 0% 10%;
-		}
-		.box{
-			background-color: $color-blue-dark;
-			margin: 2% 3%;
-			padding:1% 1%;
-			@include responsive(s2) {
-				margin: 3% 3%;
-				padding:3% 3%;
-			}
-			@include responsive(s3) {
-				margin: 3% 3%;
-				padding:3% 3%;
-			}
-		}
-	}
-}
-
-#contato {
-	background-image: url('../../../images/bg-01.jpg');
-	h1{
-		padding: 5% 10% 3% 10%;
-		font-family: $font-secondary;
-		color: $color-white;
-		font-size: 3em;
-		@include responsive(s1) {
-			max-width: initial;
-		}
-		@include responsive(s3) {
-			font-size: 1.8em;
-			padding: 0;
-			padding-bottom: 15px;
-			padding-top: 40px;
-		}
-	}
-	p {
-		padding: 3% 35% 4% 35%;
-		color: $color-green-light;
-		font-size: 1em;
-		font-family: $font-primary;
-		font-size: 1.3em;
-		@include responsive(s3) {
-			font-size: 1em;
-			padding: 0;
-			padding-bottom: 15px;
-			padding-top: 20px;
-		}
-	}
-	.separator:before {
-		height: 5px;
-		 width: 8%;
-	}
-}
-
-#produtos {
-	background-color: $color-green-opaque;
-	padding-top: 0px;
-	padding-bottom: 65px;
-	h1{
-		font-family: $font-secondary;
-		color: $color-green-dark;
-		font-size: 6.1em;
-		line-height: 0.1;
-		color: $color-mostarda;
-		@include responsive(s1) {
-			font-size: 5.3em;
-		}
-		@include responsive(s2) {
-			font-size: 4.3em;
-			text-align: center;
-			float:none;
-			max-width: initial;
-			margin-bottom: 30px;
-		}
-	}
-	h2{
-		font-family: $font-secondary;
-		color: $color-green-dark;
-		font-size: 3.3em;
-		font-style: italic;
-    	margin-top: 80px;
-		.home-green{
-			color: $color-green-light;
-		}
-		@include responsive(s1) {
-			font-size: 3em;
-		}
-		@include responsive(s2) {
-			font-size: 2.5em;
-			text-align: center;
-			float:none;
-			max-width: initial;
-		}
-	}
-	p{
-		font-family: $font-primary;
-		padding: 8% 33% 0% 33%;
-		text-align: center;
-		font-size: 1.23em;
-		line-height: 1.65em;
-		@include responsive(s1) {
-			padding: 7% 32% 0% 32%;
-			max-width: initial;
-			text-align: center;
-			float:none;
-		}
-		@include responsive(s2) {
-			padding: 7% 12% 0% 12%;
-			max-width: initial;
-			text-align: center;
-			float:none;
-		}
-		@include responsive(s3) {
-			padding: 7% 2% 0% 2%;
-			max-width: initial;
-			text-align: center;
-			float:none;
-		}
-	}
-	.decoration {
-	    padding-top: 30px;
-	    padding-bottom: 30px;
-	    width: 25%;
-		@include responsive(s3) {
-			width: 40%;
-		}
-		@include responsive(s4) {
-			width: 65%;
-		}
-	}
-	.little {
-		height: 360px;
-		@include responsive(s2) {
-			height: initial;
-		}
-	}
-	.little-g {
-		height: 390px;
-		@include responsive(s2) {
-			height: initial;
-		}
-	}
-	.medium {
-		height: 480px;
-		@include responsive(s2) {
-			height: initial;
-		}
-	}
-	.big {
-		height: 550px;
-		@include responsive(s2) {
-			height: initial;
-		}
-	}
-	.banner-produto{
-		img{
-			width:100%;
-		}
-		background-color: $color-white-full;
-		padding: 20px;
-		margin-top: 20px;
-		h3{
-			color: $color-mostarda;
-			font-family: $font-secondary;
-			font-size: 1.4em;
-			font-weight: bold;
-		}
-		p {
-			padding: 0%;
-			font-size: 0.95em;
-		}
-		.button {
-   			background-color: $color-white-full;
-   			color: $color-mostarda;
-   			border: 2px solid;
-   			font-size: 14px;
-			font-weight: 600;
-			height:40px;
-		    min-width: 120px;
-		    max-width: 240px;
-		    text-transform: capitalize;
-		    margin: 10px 0px 20px 0px;
-		}
-	}
-}
-
-#contato-footer{
-	background-image: url('../../../images/bg-02.jpg');
-	padding-bottom: 60px;
-	h1{
-		padding: 4% 10% 0% 10%;
-		font-family: $font-secondary;
-		color: $color-white;
-		font-size: 4em;
-		font-weight: bold;
-		@include responsive(s1) {
-			max-width: initial;
-		}
-		@include responsive(s4) {
-			font-size: 3em;
-			padding: 0;
-			padding-bottom: 0px;
-			padding-top: 40px;
-		}
-	}
-	h2{
-		padding: 1% 10% 0% 10%;
-		font-family: $font-primary;
-		color: $color-white;
-		font-size: 3.3em;
-		@include responsive(s1) {
-			max-width: initial;
-		}
-		@include responsive(s4) {
-			font-size: 1.5em;
-			padding: 0;
-			padding-bottom: 15px;
-			padding-top: 20px;
-		}
-	}
-	h3{
-		color: $color-white;
-		margin-bottom: 45px;
-		span{
-			font-size: 0.8em;
-			@include responsive(s4) {
-				font-size: 0.5em;
-			}
-			a{
-				font-family: $font-primary;
-				color: $color-white;
-				@include responsive(s1) {
-					max-width: initial;
-				}
-				@include responsive(s4) {
-					padding: 0;
-					padding-bottom: 15px;
-					padding-top: 0px;
-				}
-			}
-		}
-	}
-	.address {
-		color: $color-mostarda;
-		font-size: 1.5em;
-		@include responsive(s4) {
-			font-size: 1.2em;
-			padding: 0;
-			padding-bottom: 30px;
-			padding-top: 0px;
-		}
-	}
-	.separator:before {
-		height: 5px;
-		width: 8%;
-	}
-}
-
-// Separator
-
-.separator:before {
-	text-align: center;
-    background-color: $color-mostarda;
-    content: "";
-    display: inline-block;
-    height: 5px;
-    position: relative;
-    vertical-align: middle;
-    width: 20%;
-}
-
-// Decoration
-
-.decoration{
-	padding-top: 71px;
-	padding-bottom: 28px;
-	width: 25%;
-	@include responsive(s3) {
-		width: 40%;
-	}
-	@include responsive(s4) {
-		width: 65%;
-	}
-} */

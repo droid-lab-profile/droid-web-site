@@ -21,7 +21,7 @@ nav{
 		height: 100vh;
     	transform: translateY(115%);
 		z-index: -1;
-		margin-top: 65px;
+		margin-top: 0px;
 		&.active{
 			transform: translateY(0%);
 		}
@@ -70,19 +70,20 @@ nav{
 		left: 50px;
 		@include align(15px, 50px, -50%, 0);
 		height: 40px;
-	    background: transparent;
+	    background: $color-blue-light;
 	    border-radius: 0;
 		display: block;
 		cursor: pointer;
 		&:after, &:before, span{
 			content: " ";
-			width: 22px;
-			height: 3px;
+			width: 30px;
+			height: 4px;
 			display: block;
 			background: $color-white;
 			border-radius: 0px;
 			@include transition(.25s);
-			margin-left: 7px;
+			margin-left: 10px;
+			margin-right: 10px;
 		}
 		&:before{
 			margin-top: 10px;
